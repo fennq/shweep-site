@@ -691,7 +691,7 @@
             </div>
             <div class="faq-item">
               <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">What is the whitelist structure? <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8 3v10M3 8h10"/></svg></button>
-              <div class="faq-a"><div class="faq-a-inner">75 wallets will receive Guaranteed Access. 150 wallets will receive FCFS Access. The remaining supply will be available during Public Mint.</div></div>
+              <div class="faq-a"><div class="faq-a-inner">100 wallets will receive Guaranteed Access. 200 wallets will receive FCFS Access. The remaining supply will be available during Public Mint.</div></div>
             </div>
             <div class="faq-item">
               <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">Is there a max mint per wallet? <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8 3v10M3 8h10"/></svg></button>
@@ -841,7 +841,53 @@
       '0x840b863eFAA52F671573132e2D0143b2657DC010',
       '0xf72729d3bd70e8a2063db17345bff8c4fba180b8',
       '0x3F0F20e86564D3c66252355f8d8ca7F329FE7A00',
-      '0xcD999102eece8A956546dAAaAbb7a57B2b7dCFc7'
+      '0xcD999102eece8A956546dAAaAbb7a57B2b7dCFc7',
+      '0xE09EE15F0B076Fe6C2c67FF8aE133e1590A60F2C',
+      '0x2c7d5bb8cec8d4b394c1849c56c1af7eb969fe52',
+      '0x462F13C8c00FfbBE25BD89687546Edb4eBB54462',
+      '0xd49d34ACB616FBf36761CFbf216B88f6039024A1',
+      '0x04BB32098469D1A82562b0255b7Ed6478a0e1Dd6',
+      '0x5d1b1b94798049e453688921d7b283f403ab7f23',
+      '0x945b962f5d0e791b027cab8962da4d6afb1374bc',
+      '0x86174470eea3eb35524b3c1998F5f2a9097141fC',
+      '0x1B53393F248fb16Ac17e95462746C5a9AEDB21CA',
+      '0x1AE55c0005758d43fB804F297921434Bb0D41545',
+      '0x3c83a8d36b00b8e22914a9e7a49a05f856f2fff4',
+      '0xf4a048e9969485ED85779bf48928953F2defbA53',
+      '0x13a883c96B3a5F9b6a18E14a082459C8c5F349d5',
+      '0xA7964d31fcB2DDe6cAE43A71205299DeADEf90bb',
+      '0x527e4e91b2ba81559b4d1165bec844737ed8ade9',
+      '0x4a295143d2a819bad2324175164e06ebf1c0bc5c',
+      '0x87413126e459588487cf9a9f0c380f569eb016c2',
+      '0xca3bfda6c29ac18049a31c08b64cfafb7c4c040d',
+      '0xe2706a65B431C5Bdd02719fc28BF0A73612e3f60',
+      '0x41d5b2b0b8bc474cAF972A987812681142183017',
+      '0x67f0D33e51345070a1EFad1798D5283D162b5666',
+      '0xEd6812A5896f30466694Cad9834D34523CB440FF',
+      '0x5bE04C6A1600FdcaD26F28af2e77DFA3dd57376F',
+      '0x72ec64548bf4627a84e4a3f45f79122863c30b3c',
+      '0x63Cdf6e1fB3Ab04eCAdf64223498d93A8C2256da',
+      '0xca435beb7a4dfb0f68fbdfe62de47a4f1aa3b64f',
+      '0x031612fA9774220288da9335890BE308E7e5b5E5',
+      '0xE3f530861065F621ff547fF3450aB5351031C7Fa',
+      '0x699759829fa08c75364cc751d451a7f1a7923e6f',
+      '0xD43de59e7f84dB0fe4f2bf2E9601736eCECBBddB',
+      '0xd4f5b6d25e3c50F086014FE00DdC9D9fBbD3b1D5',
+      '0x113465e5062a655e7503122575AF392D55b73b59',
+      '0x4D61f0a69CCEB40f8B37840eC2c13B9Ee3975601',
+      '0xc7875754505893dA301CB015b94A852b5582d15e',
+      '0x6830af36699b3ae1a9e9b3cb5c7dda9ea1124ac2',
+      '0x93c712289e4e100d252a2f174b6093c9f134eefc',
+      '0x2127441c353958cdd0dbb540963f430b4991184a',
+      '0xdb4028a84e14cb0c47a952de187f0fd503bf3a74',
+      '0x30A37889e50D288d8C0D9019162e8Ca207d110F0',
+      '0x463059561ACabc721a77fB4151508F46aC9D998c',
+      '0xf8AfA2150c4871c246CF9Feb638C594603437989',
+      '0x8eD16b2C64C92ad9B7bb00902928569Ded7d3d22',
+      '0x02cCD73256e260060B10d4f1268D35De9E34c14A',
+      '0x98d9a11e15139c2039ceca6d39776cccf445cb15',
+      '0x0a59bf8592a1da4f4828166134e92a2ed4e66060',
+      '0x22fb9afd7522e0d28743f393665795113e887a49'
     ].map(addr => addr.toLowerCase());
 
     // FCFS Whitelist (First Come First Serve)
@@ -969,7 +1015,83 @@
       '0x7533e99c0dCfa71A80aF5D7e5a11947bb35EdC1D',
       '0xF0142F9CBE93Bec9f09c69D4e83f7893D6c3b03f',
       '0x619cdee36594dea8c86e059e413505a6c2c915ad',
-      '0xeb389E9d3525116246c479E60Ae65D4Fe1c569B2'
+      '0xeb389E9d3525116246c479E60Ae65D4Fe1c569B2',
+      '0xDe76920419ba7cD40fd20aeDF3448aC8F8974DCb',
+      '0x9c94b08E02853C039395809df76c9b3079177c15',
+      '0x9e1be2758012f1f4fc69dd2955661c6286f13bcf',
+      '0x9d3F0d2F022D55eBE96300F6341C2e27c2836E93',
+      '0x23043675828f7a3F2eFf48B5afe9ee874Ad76a2c',
+      '0x045692628ec5ff954fb4d904e47ed3c57334317c',
+      '0xA9D8dD595345083EB847Cef38287492504E608Fb',
+      '0x919469680c673538365afb57698a46bb55187150',
+      '0x3f0909d3768d4421cfb5372ba1a38e0a8e90887d',
+      '0xdfe813b81194A8f093ABbA7BaaB8A223f75d6022',
+      '0x5cbbbeda42ef3a821c5f78ab661687c837719206',
+      '0xde888704cb197495fdec7dd2d637564d1eac8d46',
+      '0xE3DaEE5874FB91f57ff5985Bb1C678A0038435da',
+      '0x9a4ce48a15a5a5b1648663c82d54f2a88f365974',
+      '0x7D78e9e03D7409D13971b4AdDF3Ee7CA3f1520C4',
+      '0xD37211a18092ea9Cae29e838844532aD37bE6567',
+      '0x04fcbca5eb6b969d080f059ff3944a6240c7a901',
+      '0xc6e2d5c9d020eb2ccc5744f18e37b542f0d9c97b',
+      '0xb95edad0e1597402f8a09c4fd6c8f71494abbcca',
+      '0x92ab49733206492cc851f37ea308da0e91f1d490',
+      '0x0E16fB3f3f839832fa31bc93301A9fA7833EB94a',
+      '0x90cb7afd46b29bf4916eb9b84fec3daf467cc452',
+      '0x70Dd544eAa42326D0B785c18c7A5eee466603E5E',
+      '0x38212E8887FD53905F7946dF521d82383791E6Fc',
+      '0x16c228f165A7fda9b3dB42D75E9d1e90560D1C6f',
+      '0x84A928d2b6E3ffEe7AEf0D46eDF5A108771dCEAc',
+      '0x2d1cc0dbd23ab20166070623B9B9EbF93d885B84',
+      '0x97b975ca1436aF0C999bccb9b238b25837A653BD',
+      '0xed3D32f401740CE9637C880DD35D8edF408a4Fef',
+      '0xB147C1719D46B65bB2A8D49Db7835322B86b897a',
+      '0xae2e635ebbc4a219fdaae054cb3a9efe9423a3d2',
+      '0x87053fea6879dd7217ff3db9bee47f2f3b4d9cbb',
+      '0x33bc0551f156105a1322f327d6ad98c383c7792c',
+      '0x6ee5F4125e7a1AB7728Ba0609cf0D056E0cE3AC8',
+      '0xcf73CB34f6df1eCacf59f260fE6073fBbF6917a3',
+      '0x9C9575Bea7F25a3eCBAa962d1aafCFab1166c7B2',
+      '0x5EBC2Ef73Ee4Ec0CaF019aB1848C0F6F41806d90',
+      '0x3b4666D286684D8025a732E307218f5C32E5B90C',
+      '0x73095802b8D15b4fB0a5919d06b9901c6D50f22f',
+      '0x424e60800973730292a962f1899fc51b1c13f519',
+      '0xc143F34803ec1084c24D54dD05b6573D5D0A04C0',
+      '0x4Eb859Fc83977267fbb6aE1066A51FB4c9086C28',
+      '0xC4f8B866382CD91033F952f4E7B7D670A3C15947',
+      '0x3baead54df4fd2fdf6bb2bbe8ad5e6bb69059447',
+      '0x7a23849FBABe3a02CD642EC05DA1915F9B81bdC5',
+      '0x76a09672278d8bb681427b722f7ef95377ca1230',
+      '0x6329d4a63E9C698EB295351de3f9E0A9C6791775',
+      '0x19b9b9c0c557d4bb173a8b5975136d05f39fc870',
+      '0xfe20cebbc417cb8cee1f6f2c984a88aeed98a454',
+      '0xe20197dcb0afbd6fc6a6de6f5b932ce4793eb351',
+      '0x4973f13da014f24aaf85bcfcd10392fd2f5ba50c',
+      '0x8ea657d77fbe8d416387cb814f2d297dbc3e89b9',
+      '0xeff18709b4fc5328ba23e92c1a6a5ef993c6eeb4',
+      '0x66d235dEfA48e658FA809869bc2D4ED547808b65',
+      '0x84ae1a9f786dd559b6728c7145a3b72be092708d',
+      '0x5c38d4a9b9b14a45afbb2e031072eb50e5353417',
+      '0x0C4E3B617a206EA37fb3fCE302e332F230E1E2c0',
+      '0xf23c9661efbCBd808AC31BA7B6CAfd8dcbAFB403',
+      '0x1277b21dd4fdF46c687760aD46Fd3319C6eFB01A',
+      '0xa2A042F61e205dc16E11Ce69D7686AA8E4c2B47e',
+      '0x0B0954DD0973A526B8AF80Dd80535CC120CD2671',
+      '0x7908d3A0C312f032f68f168c7A2D8C25F191CcE0',
+      '0x0EdAe67F3Dc71Eb11cE491B03Eb2D22644E06e93',
+      '0x914fde3756e1b71e1e6ccb88512ffbf857e6529e',
+      '0x2b477aa5bb92bbadb9119cdfceebbd531f8725e7',
+      '0x534e595ea2320baDbDb8f0aA513510BFF538A2ac',
+      '0x023158eD361bD62Fba4dE852ee6A22a28BF2c91C',
+      '0xDC9b3B1d55a377e0d98D4dcEcD96cBFBa0a36eE4',
+      '0xdc0b8b180323c5c60a08089ca431f49ae33feb90',
+      '0x5E435FB15c52C01e7958Ca9d80567d91e14d4CE8',
+      '0x772dF95fAf49B63b5cEc9ff95C4Dd96f936967d5',
+      '0xcdafc1912e097e11d354b83a200d2758a6db2fbc',
+      '0x9203E145F7a0991865D47c7Bb0d21905dF7DB0Cb',
+      '0x8f4e4F436C2b094de62c673cB2FBdD4470f03019',
+      '0x6927a0d2A5e1cE3e5046A3D1D1B4Dab7CBE7f41C',
+      '0x950d6281854d98783f05a4f07269ef58fb0e988b'
     ].map(addr => addr.toLowerCase());
 
 
@@ -1026,7 +1148,7 @@
         const positionNumber = gtdPosition + 1;
         icon.textContent = '✓';
         title.textContent = 'GTD Whitelist';
-        msg.textContent = `Position ${positionNumber}/75 on GTD Whitelist. You have guaranteed access to the SHWEEP mint.`;
+        msg.textContent = `Position ${positionNumber}/100 on GTD Whitelist. You have guaranteed access to the SHWEEP mint.`;
         resultBox.classList.add('eligible');
         btn.disabled = false;
         btn.classList.remove('is-loading');
@@ -1042,7 +1164,7 @@
         const positionNumber = fcfsPosition + 1;
         icon.textContent = '✓';
         title.textContent = 'FCFS Whitelist';
-        msg.textContent = `Position ${positionNumber}/150 on FCFS Whitelist. You have first-come-first-serve access to the SHWEEP mint.`;
+        msg.textContent = `Position ${positionNumber}/200 on FCFS Whitelist. You have first-come-first-serve access to the SHWEEP mint.`;
         resultBox.classList.add('eligible');
         btn.disabled = false;
         btn.classList.remove('is-loading');

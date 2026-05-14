@@ -578,9 +578,8 @@
       box.classList.add('show');
     }
     document.getElementById('walletInput').addEventListener('keydown', e => { if (e.key === 'Enter') checkWhitelist(); });
-  </script>
-</body>
-</htmlconst GTD_WHITELIST = [
+
+    const GTD_WHITELIST = [
       '0xD76d70DbFA7066Fa7931Acf7162D1f079bfB1a8C',
       '0x41dDD0EdB421b428D40DC948b3161F0DBf653729',
       '0x8f843FC032a6bD6e98e9F5ccFC8127B0D3cEA6Cc',
@@ -891,4 +890,7 @@
       '0x8f4e4F436C2b094de62c673cB2FBdD4470f03019',
       '0x6927a0d2A5e1cE3e5046A3D1D1B4Dab7CBE7f41C',
       '0x950d6281854d98783f05a4f07269ef58fb0e988b'
-    >
+    ].map(addr => addr.toLowerCase());
+  </script>
+</body>
+</html>

@@ -766,7 +766,7 @@
             </div>
             <div class="mint-item">
               <div class="mint-key">Whitelist</div>
-              <div class="mint-val">140 GTD / 200 FCFS</div>
+              <div class="mint-val">GTD / 200 FCFS</div>
             </div>
             <div class="mint-item">
               <div class="mint-key">Public Mint</div>
@@ -981,7 +981,40 @@
       '0xD8EFdf24394d93b736c7777B224781cb94E2Bdd3',
       '0xf3BF6E51a167d77e65A1DAa2573dE5CB968a4063',
       '0xfbfc242463dab877caf8cd7a7ba6cf8607bebde1',
-      '0xD418Ee83CB01C36396D36a9c406e180F41737d06'
+      '0xD418Ee83CB01C36396D36a9c406e180F41737d06',
+      '0x18150da63acf82f2fa5f4f596f3a1532efab6d9d',
+      '0xb306af187d9a7d39e19fd487a77ded5783a8a04b',
+      '0xbF3B68117Ce3F9D5C20085a3132308a7B2F2aCEA',
+      '0x6f8973f95590c63ceec9ecb5ce94447c1026a868',
+      '0x99418c8b524fF4977F5bD52621e09EeeFE8f672D',
+      '0x792dd58b1fe4e08204822ce38c229aa30947c6ae',
+      '0xCB5F3F86fF89FE3B8dF95D61bAC871734703DF0b',
+      '0x0ef2411342cdf6bd294e33d985da0fbb18c3d976',
+      '0xda18f58d39cf47c69fd65555e87d599ee9c1e100',
+      '0xaF9556ae9572fbbe9D1bf7952340F794f9ffC135',
+      '0x573D76cc1d4Ec44ef63778bF8C9630725E29C00f',
+      '0x9751DBC28Ce3B46274eC347FF6F653006817AC6b',
+      '0x0B56C37483C213ca6f73720FbCdCCC215e562c4f',
+      '0x93b6271fbf4cdd107f0c36a4044704e1842bebf7',
+      '0xC5457040206587D167c5C3bAD0a174a322a2C594',
+      '0xe0ec6c1adf750e773a3cd06907e784e195673b55',
+      '0xdfd6ced2d42fd157369e424c23c3ae1c01c0fab8',
+      '0x516afedbbc02f46d60d15caf77f5a722024bd3c5',
+      '0x7eb92b7527d820f2eeb6ed6b2fd6fed454443bb4',
+      '0x680bF685aFfc7d870DE56E0617B044E6aeF9878D',
+      '0x5c22cE75c0DF1c2afa7A3DBe14eA894646D6181F',
+      '0x07ded4a4a286d6cc04ec417e24a6a5b2c77cbe29',
+      '0x587cb8d958d60279da7f87f967ec9512a17c6d8c',
+      '0xbc87182B1bF997f80193e961349770a3481F7886',
+      '0xD15C4be65e87EC5f8a2416840DdBBF1799d3a769',
+      '0x0095562a1d3cf146909f48254b6fe6c2fcea752b',
+      '0xd4ee9131acbd3849e3c19ce55f99947ab458799b',
+      '0x5b054E5C5fB89aB897b1e4A30229a695dC52191B',
+      '0x7f1D46e0803708586C2FAAc85310A449A89fc596',
+      '0x93Ce6A9E1C720AaDF4cB57fE93F74744C413998F',
+      '0xc96f8b9a9b69e579a667d585e7d7e4b5fad5d356',
+      '0xea22b99Ca4c48D40F1bdD34679fA095a167b5eaF',
+      '0x8B3a9f9808b2780A2eb22D37883ED424ce71af62'
     ].map(addr => addr.toLowerCase());
 
     // FCFS Whitelist (First Come First Serve)
@@ -1070,7 +1103,6 @@
       '0x70dc940EEf6A7d599d3D4eF4A978Da426f160070',
       '0x7266a3bd46623a957d19554c801772d70eafc7d4',
       '0x55843df9227396d525f9576d18fa892be20eadad',
-      '0x18150da63acf82f2fa5f4f596f3a1532efab6d9d',
       '0x31c14501f760ac0c668ece6d2744a6aa3d53aa9f',
       '0xAF83a69b531e52D184fEAE7D3F3cA3697dCfF592',
       '0x1d02F7232A865c4cE8B8B3A16BaA33cBc26C5073',
@@ -1185,7 +1217,8 @@
       '0x9203E145F7a0991865D47c7Bb0d21905dF7DB0Cb',
       '0x8f4e4F436C2b094de62c673cB2FBdD4470f03019',
       '0x6927a0d2A5e1cE3e5046A3D1D1B4Dab7CBE7f41C',
-      '0x950d6281854d98783f05a4f07269ef58fb0e988b'
+      '0x950d6281854d98783f05a4f07269ef58fb0e988b',
+      '0x96c20cee26d6a7d315bc054ef217a8e364d0f2b1'
     ].map(addr => addr.toLowerCase());
 
 
@@ -1242,7 +1275,7 @@
         const positionNumber = gtdPosition + 1;
         icon.textContent = '✓';
         title.textContent = 'GTD Whitelist';
-        msg.textContent = `Position ${positionNumber}/140 on GTD Whitelist. You have guaranteed access to the SHWEEP mint.`;
+        msg.textContent = `Position ${positionNumber} on GTD Whitelist. You have guaranteed access to the SHWEEP mint.`;
         resultBox.classList.add('eligible');
         btn.disabled = false;
         btn.classList.remove('is-loading');
@@ -1258,7 +1291,7 @@
         const positionNumber = fcfsPosition + 1;
         icon.textContent = '✓';
         title.textContent = 'FCFS Whitelist';
-        msg.textContent = `Position ${positionNumber}/200 on FCFS Whitelist. You have first-come-first-serve access to the SHWEEP mint.`;
+        msg.textContent = `Position ${positionNumber} on FCFS Whitelist. You have first-come-first-serve access to the SHWEEP mint.`;
         resultBox.classList.add('eligible');
         btn.disabled = false;
         btn.classList.remove('is-loading');
